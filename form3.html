@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blood Form</title>
+</head>
+
+<!--main-->
+
+<body bgcolor="yellow">
+  <header class="text-gray-700 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img src="heart.svg" width="50px" height="50px">
+        <span class="ml-3 text-xl">#ForACause</span>
+      </a>
+      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <h1>
+    <marquee bgcolor="skyblue">DONATE BLOOD:[ENTER DATA CAREFULLY]</marquee></h1>
+    <form id=" th" method="post" action="connect3.php" align="center" margin="100px" padding="50px" bgcolor="yellow">
+      Full Name : <input type="text" name="username"><br><br>
+      Email : <input type="email" name="email"><br><br>
+      Date of Birth : <input type="date" name="dob"><br><br>
+      Age : <input type="number" name="age"><br><br>
+      Gender : <br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br>
+      Phone : <input type="number" name="phone"><br><br>
+      Address : <textarea rows="8" cols="20"></textarea><br><br>
+      Pincode : <input type="number" name="pin"><br><br>
+      Blood : <br>
+      <input type="radio" id="posA" name="blood" value="posA">
+      <label for="posA">A+</label><br>
+      <input type="radio" id="negA" name="blood" value="negA">
+      <label for="negA">A-</label><br>
+      <input type="radio" id="posB" name="blood" value="posB">
+      <label for="posB">B+</label><br>
+      <input type="radio" id="negB" name="blood" value="negB">
+      <label for="negB">B-</label><br>
+      <input type="radio" id="posAB" name="blood" value="posAB">
+      <label for="posAB">AB+</label><br>
+      <input type="radio" id="negAB" name="blood" value="negAB">
+      <label for="negAB">AB-</label><br>
+      <input type="radio" id="posO" name="blood" value="posO">
+      <label for="posO">O+</label><br>
+      <input type="radio" id="negO" name="blood" value="negO">
+      <label for="negO">O-</label><br>
+      <input type="radio" id="other" name="blood" value="other">
+      <label for="other">OTHERS</label><br><br>
+      Any feedback : <textarea rows="10" cols="20" name="feed"></textarea><br><br>
+      <input type="submit" value="Submit">
+      </form>
+      </div>
+</body>
+</html>
